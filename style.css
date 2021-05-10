@@ -1,0 +1,198 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; ;
+  margin: 0;
+  padding: 0;
+}
+
+.bodytext {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; ;
+  margin: auto; 
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
+h1 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+  font-style: normal;
+  font-weight: lighter;
+  color: #000000;
+  font-size: 30px;
+  position: absolute;
+  left: 15px;
+  top: -5px;
+  align-items: center;
+}
+
+h2 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+  font-size: 13px;
+}
+
+h3 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+  font-style: normal;
+  font-weight: bold;
+  color: #101010;
+  font-size: 22px;
+}
+  
+  
+ /* unvisited link */
+a:link {
+  color: #383838;
+}
+
+/* visited link */
+a:visited {
+  color: #71735b;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+  cursor: pointer;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+#map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.map-wrapper {
+  height: 100%;
+  max-width: 100%;
+}
+
+.buttons {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  z-index: 2000;
+  display: block;
+  float: center;
+  text-align: right;
+}
+
+/*
+ * This is the main wrapper for the entire page.
+ */
+.content-wrapper {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Orient the elements within this wrapper as a column (vertically) */
+  height: 100vh; /* Take up all of the vertical height of the page */
+}
+
+
+/*
+ * The navigation bar
+ */
+.navigation-bar {
+  background: #FFFFFF; /* Just so we can see the navigation bar, feel free to change */
+  height: 8%;
+  border-color: #ededed; 
+  opacity: 0.9;
+  position: relative;
+}
+
+/*
+ * The buttons within the navigation bar
+ */
+.navigation-buttons {
+  display: flex; /* Use flexbox. By default, elements within this will be horizontally oriented (row) */
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  float: right;
+  justify-content: right;
+  color: 000000;
+  position: relative;
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+/*
+ * The links within the navigation-buttons element.
+ */
+.navigation-buttons a {
+  padding-left: 20px; /* Adding padding to either side to space them out. */
+  padding-right: 20px;
+}
+
+.navigation-buttons a:hover {
+  color: green;
+}
+
+
+/*
+ * The element that goes under the navigation bar. Everything else on the page is in here
+ */
+.main-content {
+  display: flex; /* Use flexbox, horizontally oriented (to make sidebar and map-wrapper side-by-side) */
+  flex: 1; /* Allow main-content to grow. Comment this out to see what it does. */
+}
+
+/*
+ * The map-wrapper. The map and anything that goes on top of the map (such as the legend) should go in here.
+ */
+.map-wrapper {
+  position: relative; /* Position relative so that the legend will stay within it. */
+  flex: 1; /* Let the map-wrapper take up all the width the sidebar doesn't use. */
+}
+
+.legend {
+  background: white;
+  padding: 15px;
+  position: absolute;
+  bottom: 50px;
+  right: 15px;
+  z-index: 2000;
+  border-style: double;
+  border-color: #D3D3D3;
+}
+
+.legend-header {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.legend-marker1 {
+  display: inline-block;
+ border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  content: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/binitaz/assets/20210507022449hospitalblue.png');
+}
+
+
+.legend-marker2 {
+  display: inline-block;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background: #71735b
+  opacity: 0.79;
+  content: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/maki-icons/triangle-18.svg');
+}
+
+.legend-marker3 {
+  background: #d93b28;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  opacity: .88;
+  display: inline-block;
+}
+
+
