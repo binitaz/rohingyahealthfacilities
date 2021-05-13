@@ -114,7 +114,7 @@ a:active {
   width: 100%;
   height: 65px;
   float: right;
-  justify-content: right;
+  justify-content: flex-end;
   color: 000000;
   position: relative;
   font-variant: small-caps;
