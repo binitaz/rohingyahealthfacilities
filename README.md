@@ -20,3 +20,4 @@ Updates
 ------------
 
 6/29/20: Made website responsive. 
+
