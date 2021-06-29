@@ -1,37 +1,23 @@
-Welcome to Glitch
+Mapping Health Facilities in Rohingya Refugee Camps
 =================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
+This map explores healthcare facilities for the Rohingya population in the refugee camps of Cox's Bazar, Bangladesh. 
 
 
-Your Project
+Description
 ------------
 
-### ← README.md
+As part of my Advanced GIS course, in light of the COVID-19 pandemic, I wanted to explore the health facilities within the refugee camps. My intention was to also incorporate COVID-19 data for the Rohingya but could not do so due to limitations. Nonetheless, I hope that this tool can serve as an introduction to the issue of refugee and migrant health, the concept of statelessness, and the Rohingya refugee crisis as a whole.
 
-That's this file, where you can tell people what your cool website does and how you built it.
 
-### ← index.html
+Users can see how many refugees reside in each specific camp and the surrounding health facilities. The webpage also provides an index for the abbreviations used throughout the map, list of data sources, and additional resources on the Rohingya refugee crisis, statelessness, and refugee/migrant health.
 
-Where you'll write the content of your website. 
 
-### ← style.css
+This is essentially an introductory work of mine using HTML, CSS and Javascript. Any feedback to this project is much appreciated and will be taken into consideration.
 
-CSS files add styling rules to your content.
 
-### ← script.js
+Updates
+------------
 
-If you're feeling fancy you can add interactivity to your site with JavaScript.
+6/29/20: Made website responsive. 
 
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
